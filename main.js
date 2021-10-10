@@ -2,11 +2,16 @@ let firstNumber = 15;
 
 let secondNumber = 7;
 
-function add(firstNumber, secondNumber) {
-    let result = firstNumber + secondNumber;
+function sum(num1, num2) {
+    let result = num1 + num2;
 
     return result;
-
-    console.log(add(4,5));
 }
+
+    console.log(sum(4,5));
+
+    let wynikDodawania = sum(32, 10);
+
+    console.log(wynikDodawania);
+
 
